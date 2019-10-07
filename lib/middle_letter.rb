@@ -1,3 +1,5 @@
 def middle_letter(string)
-  "A"
+  string[-(string.length/2 + 1)]
 end
+
+# puts middle_letter("testing")
